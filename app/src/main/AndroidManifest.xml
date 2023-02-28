@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ANMPKPC"
         tools:targetApi="31">
         <activity
+            android:name=".changePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
